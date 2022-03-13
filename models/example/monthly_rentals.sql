@@ -19,5 +19,5 @@ select customers,
 concat(month,'/', year) as yr_month
 from rentals
 )
-select sum(customers), yr_month from final
+select sum(customers) as driving_customers, yr_month from final
 group by yr_month
