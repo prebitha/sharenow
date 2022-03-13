@@ -3,7 +3,7 @@
 with date_rental as
 (
 SELECT 
-count(customer_ID) as customers,
+count(distinct(customer_ID)) as customers,
 parse_date('%d.%m.%y', rental_start_date ) as rental_date_start,
 extract(week from parse_date('%d.%m.%y', rental_start_date )) as week
   from {{source('rentals', 'rental')}}
