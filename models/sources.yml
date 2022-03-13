@@ -7,4 +7,4 @@ sources:
     tables:
     - name: rental
     - name: rental3
-    - name: customer
+    - name: customers
