@@ -6,4 +6,5 @@ sources:
     schema: file
     tables:
     - name: rental
+    - name: rental3
     - name: customer
