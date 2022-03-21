@@ -1,6 +1,6 @@
 select
 
-customer_ID as customerid,
+customer.customer_ID as customerid,
 Gender,
 Registration_Datetime_Local,
 Rental_First_Datetime_Local,
