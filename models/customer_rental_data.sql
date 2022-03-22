@@ -1,3 +1,6 @@
+{{ config(materialized='table') }}
+
+
 select
 
 customer.customer_ID as customerid,
